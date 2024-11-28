@@ -1,13 +1,17 @@
 import sys
-
-from PyQt6.QtWidgets import QApplication, QMainWindow
-from vhod import Ui_reg2
+from PyQt6.QtWidgets import QApplication, QMainWindow,QPushButton
+from vhod import Ui_reg2 as Vhod
+from registration import Ui_Dialog as Main_reg
+from reg1 import Ui_Dialog as Smol_reg
+import reg1
+from main_menu import Ui_MainWindow
+from main_admin import Ui_MainWindow as Ui_adminWindow
 
 
 class MyWidget(QMainWindow):
     def __init__(self):
         super(MyWidget, self).__init__()
-        self.ui = Ui_reg2()
+        self.ui = Smol_reg()
         self.ui.setupUi(self)
 
 
