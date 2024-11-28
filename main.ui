@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>880</width>
-    <height>701</height>
+    <width>1074</width>
+    <height>781</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -75,7 +75,7 @@ background-color: white;
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap resource="🤡Project🤡/resourses.qrc">:/res/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291-fotor-bg-remover-20241102121640.png</pixmap>
+            <pixmap resource="resourses.qrc">:/res/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291-fotor-bg-remover-20241102121640.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>
@@ -97,50 +97,14 @@ background-color: white;
           <number>15</number>
          </property>
          <item>
-          <widget class="QPushButton" name="pushButton_main2">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
-             <normaloff>:/res/home_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/home_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/home_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
           <widget class="QPushButton" name="pushButton_acc1">
            <property name="text">
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
+            <iconset resource="resourses.qrc">
              <normaloff>:/res/add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
              <normalon>:/res/add_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_money1">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
-             <normaloff>:/res/paid_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/paid_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/paid_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="checkable">
             <bool>true</bool>
@@ -156,9 +120,9 @@ background-color: white;
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
-             <normaloff>:/res/update_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/update_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/update_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/school_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
+             <normalon>:/res/school_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/school_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="checkable">
             <bool>true</bool>
@@ -169,14 +133,14 @@ background-color: white;
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton_social1">
+          <widget class="QPushButton" name="pushButton_news1_2">
            <property name="text">
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
-             <normaloff>:/res/forum_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/forum_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/forum_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
+             <normalon>:/res/summarize_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="checkable">
             <bool>true</bool>
@@ -192,7 +156,7 @@ background-color: white;
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
+            <iconset resource="resourses.qrc">
              <normaloff>:/res/settings_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
              <normalon>:/res/settings_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/settings_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
@@ -225,7 +189,7 @@ background-color: white;
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="🤡Project🤡/resourses.qrc">
+          <iconset resource="resourses.qrc">
            <normaloff>:/res/logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
            <normalon>:/res/logout_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
          </property>
@@ -261,7 +225,7 @@ background-color: white;
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
+            <iconset resource="resourses.qrc">
              <normaloff>:/res/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="iconSize">
@@ -301,7 +265,7 @@ background-color: white;
           </font>
          </property>
          <property name="text">
-          <string>Читай многое, интересное, полезное!</string>
+          <string>Хорошего рабочего дня!</string>
          </property>
         </widget>
        </item>
@@ -326,7 +290,7 @@ background-color: white;
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
+            <iconset resource="resourses.qrc">
              <normaloff>:/res/remove_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/remove_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="checkable">
@@ -340,7 +304,7 @@ background-color: white;
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
+            <iconset resource="resourses.qrc">
              <normaloff>:/res/check_box_outline_blank_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/check_box_outline_blank_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="checkable">
@@ -354,7 +318,7 @@ background-color: white;
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
+            <iconset resource="resourses.qrc">
              <normaloff>:/res/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="checkable">
@@ -405,7 +369,7 @@ background-color: white;
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap resource="🤡Project🤡/resourses.qrc">:/res/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291-fotor-bg-remover-20241102121640.png</pixmap>
+            <pixmap resource="resourses.qrc">:/res/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291-fotor-bg-remover-20241102121640.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>
@@ -427,33 +391,12 @@ background-color: white;
           <number>15</number>
          </property>
          <item>
-          <widget class="QPushButton" name="pushButton_main1">
-           <property name="styleSheet">
-            <string notr="true"/>
-           </property>
-           <property name="text">
-            <string>Основное меню</string>
-           </property>
-           <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
-             <normaloff>:/res/home_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/home_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/home_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
           <widget class="QPushButton" name="pushButton_acc2">
            <property name="text">
             <string> Акаунт</string>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
+            <iconset resource="resourses.qrc">
              <normaloff>:/res/add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
              <normalon>:/res/add_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
@@ -466,32 +409,14 @@ background-color: white;
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton_money2">
-           <property name="text">
-            <string>Подписка</string>
-           </property>
-           <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
-             <normaloff>:/res/paid_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/paid_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/paid_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
           <widget class="QPushButton" name="pushButton_news2">
            <property name="text">
-            <string>Что нового</string>
+            <string>Обучение</string>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
-             <normaloff>:/res/update_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/update_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/update_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/school_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
+             <normalon>:/res/school_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/school_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="checkable">
             <bool>true</bool>
@@ -502,14 +427,14 @@ background-color: white;
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton_social2">
+          <widget class="QPushButton" name="pushButton_news2_2">
            <property name="text">
-            <string>Соц. сети</string>
+            <string>Заявки</string>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
-             <normaloff>:/res/forum_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/forum_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/forum_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
+             <normalon>:/res/summarize_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="checkable">
             <bool>true</bool>
@@ -525,7 +450,7 @@ background-color: white;
             <string>Настройки</string>
            </property>
            <property name="icon">
-            <iconset resource="🤡Project🤡/resourses.qrc">
+            <iconset resource="resourses.qrc">
              <normaloff>:/res/settings_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
              <normalon>:/res/settings_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/settings_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
@@ -561,7 +486,7 @@ background-color: white;
           <string>Выход</string>
          </property>
          <property name="icon">
-          <iconset resource="🤡Project🤡/resourses.qrc">
+          <iconset resource="resourses.qrc">
            <normaloff>:/res/logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
            <normalon>:/res/logout_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
          </property>
@@ -653,7 +578,7 @@ background-color: white;
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="🤡Project🤡/resourses.qrc">
+               <iconset resource="resourses.qrc">
                 <normaloff>:/res/search_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/search_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
               </property>
               <property name="iconSize">
@@ -665,7 +590,7 @@ background-color: white;
              </widget>
             </item>
             <item>
-             <spacer name="horizontalSpacer_6">
+             <spacer name="spacer">
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
               </property>
@@ -688,14 +613,96 @@ background-color: white;
           <string notr="true">background-color: rgb(45, 44, 44);</string>
          </property>
          <property name="currentIndex">
-          <number>0</number>
+          <number>2</number>
          </property>
-         <widget class="QWidget" name="main_page"/>
+         <widget class="QWidget" name="education_page"/>
          <widget class="QWidget" name="acc_page"/>
-         <widget class="QWidget" name="money_page"/>
-         <widget class="QWidget" name="news_page"/>
-         <widget class="QWidget" name="socials_page"/>
-         <widget class="QWidget" name="page_2"/>
+         <widget class="QWidget" name="order_page">
+          <widget class="QLineEdit" name="lineEdit_login_reg">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>50</y>
+             <width>261</width>
+             <height>30</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+	border: 2px solid white;
+	border-radius: 10px;
+	color: white;
+
+}</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_password2_reg">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>120</y>
+             <width>761</width>
+             <height>201</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+	border: 2px solid white;
+	border-radius: 10px;
+	color: white;
+
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_6">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>90</y>
+             <width>261</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Введите личный коментарий(по желанию)</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_7">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>30</y>
+             <width>141</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Введите номер станка</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_reg_reg">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>330</y>
+             <width>161</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 153, 81);
+color: white;
+border-radius: 20px;</string>
+           </property>
+           <property name="text">
+            <string>Отправить заявку</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="setting_page"/>
         </widget>
        </item>
       </layout>
@@ -706,7 +713,7 @@ background-color: white;
  </widget>
  <resources>
   <include location="🤡Project🤡/resourses.qrc"/>
-  <include location="../resourses.qrc"/>
+  <include location="resourses.qrc"/>
  </resources>
  <connections>
   <connection>
@@ -758,22 +765,6 @@ background-color: white;
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_social1</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>pushButton_social2</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>54</x>
-     <y>373</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>120</x>
-     <y>371</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>pushButton_news1</sender>
    <signal>toggled(bool)</signal>
    <receiver>pushButton_news2</receiver>
@@ -786,22 +777,6 @@ background-color: white;
     <hint type="destinationlabel">
      <x>192</x>
      <y>350</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_money1</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>pushButton_money2</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>42</x>
-     <y>277</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>181</x>
-     <y>305</y>
     </hint>
    </hints>
   </connection>
@@ -822,38 +797,6 @@ background-color: white;
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_main2</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>pushButton_main1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>40</x>
-     <y>190</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>98</x>
-     <y>189</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_main1</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>pushButton_main2</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>120</x>
-     <y>189</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>44</x>
-     <y>191</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>pushButton_acc2</sender>
    <signal>toggled(bool)</signal>
    <receiver>pushButton_acc1</receiver>
@@ -870,22 +813,6 @@ background-color: white;
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_money2</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>pushButton_money1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>125</x>
-     <y>284</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>36</x>
-     <y>283</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>pushButton_news2</sender>
    <signal>toggled(bool)</signal>
    <receiver>pushButton_news1</receiver>
@@ -898,22 +825,6 @@ background-color: white;
     <hint type="destinationlabel">
      <x>50</x>
      <y>327</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_social2</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>pushButton_social1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>193</x>
-     <y>395</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>45</x>
-     <y>368</y>
     </hint>
    </hints>
   </connection>
