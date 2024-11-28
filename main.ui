@@ -10,6 +10,11 @@
     <height>754</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>16</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -194,6 +199,11 @@ background-color: white;
       <layout class="QVBoxLayout" name="verticalLayout_6">
        <item>
         <widget class="QStackedWidget" name="stackedWidget">
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(45, 44, 44);</string>
          </property>
@@ -736,7 +746,7 @@ color: white;</string>
            <property name="geometry">
             <rect>
              <x>40</x>
-             <y>360</y>
+             <y>330</y>
              <width>161</width>
              <height>41</height>
             </rect>
@@ -756,7 +766,7 @@ border-radius: 20px;</string>
              <x>30</x>
              <y>150</y>
              <width>841</width>
-             <height>201</height>
+             <height>171</height>
             </rect>
            </property>
            <property name="styleSheet">
@@ -786,8 +796,8 @@ border-radius: 20px;</string>
           <widget class="QLabel" name="label_20">
            <property name="geometry">
             <rect>
-             <x>30</x>
-             <y>410</y>
+             <x>40</x>
+             <y>390</y>
              <width>321</width>
              <height>31</height>
             </rect>
@@ -804,8 +814,8 @@ border-radius: 20px;</string>
           <widget class="QPushButton" name="pushButton_send_order_2">
            <property name="geometry">
             <rect>
-             <x>30</x>
-             <y>600</y>
+             <x>40</x>
+             <y>430</y>
              <width>161</width>
              <height>41</height>
             </rect>
@@ -819,32 +829,55 @@ border-radius: 20px;</string>
             <string>Отправить заявку</string>
            </property>
           </widget>
-          <widget class="QLabel" name="label_21">
-           <property name="geometry">
-            <rect>
-             <x>30</x>
-             <y>450</y>
-             <width>261</width>
-             <height>16</height>
-            </rect>
-           </property>
-           <property name="text">
-            <string>Введите личный коментарий(по желанию)</string>
-           </property>
-          </widget>
           <widget class="QTextEdit" name="textEdit_com_2">
            <property name="geometry">
             <rect>
              <x>30</x>
-             <y>470</y>
+             <y>520</y>
              <width>841</width>
-             <height>121</height>
+             <height>81</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border: 2px solid white;
 	border-radius: 10px;
 	color: white;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_22">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>480</y>
+             <width>471</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Не получилось напиши комментарий.</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_send_order_3">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>610</y>
+             <width>161</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 153, 81);
+color: white;
+border-radius: 20px;</string>
+           </property>
+           <property name="text">
+            <string>Отправить заявку</string>
            </property>
           </widget>
          </widget>
