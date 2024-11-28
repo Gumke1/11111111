@@ -10,6 +10,11 @@
     <height>754</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>16</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -37,282 +42,6 @@ color: white</string>
     <property name="verticalSpacing">
      <number>6</number>
     </property>
-    <item row="1" column="0">
-     <widget class="QWidget" name="widget_4" native="true">
-      <property name="styleSheet">
-       <string notr="true">QWidget{
-background-color: rgb(0, 85, 0);
-border-top-right-radius:20px;
-}
-QPushButton{
-color: white;
-
-height: 30px;
-border:none;
-border-radius: 10px;
-border-bottom-radius: 10px;
-
-}
-QPushButton:checked{
-color: rgb(0, 85, 0);
-background-color: white;
-
-}
-</string>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout_4">
-       <item>
-        <layout class="QVBoxLayout" name="verticalLayout">
-         <item>
-          <widget class="QLabel" name="label_3">
-           <property name="maximumSize">
-            <size>
-             <width>55</width>
-             <height>55</height>
-            </size>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="pixmap">
-            <pixmap resource="resourses.qrc">:/res/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291-fotor-bg-remover-20241102121640.png</pixmap>
-           </property>
-           <property name="scaledContents">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="label_2">
-           <property name="text">
-            <string>TextLabel</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
-        <layout class="QVBoxLayout" name="verticalLayout_7">
-         <property name="spacing">
-          <number>15</number>
-         </property>
-         <item>
-          <widget class="QPushButton" name="pushButton_acc1_us">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/add_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_education1us">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/school_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/school_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/school_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_orde1_2">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/summarize_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
-        <spacer name="verticalSpacer">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>278</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item>
-        <widget class="QPushButton" name="pushButton_logout1">
-         <property name="text">
-          <string/>
-         </property>
-         <property name="icon">
-          <iconset resource="resourses.qrc">
-           <normaloff>:/res/logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-           <normalon>:/res/logout_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="autoExclusive">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </item>
-    <item row="0" column="0" colspan="4">
-     <widget class="QWidget" name="widget_2" native="true">
-      <layout class="QHBoxLayout" name="horizontalLayout_4">
-       <item>
-        <layout class="QVBoxLayout" name="verticalLayout_8">
-         <item>
-          <widget class="QPushButton" name="pushButton">
-           <property name="maximumSize">
-            <size>
-             <width>40</width>
-             <height>40</height>
-            </size>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">border:none;
-</string>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="iconSize">
-            <size>
-             <width>50</width>
-             <height>50</height>
-            </size>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
-        <spacer name="horizontalSpacer_5">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item>
-        <widget class="QLabel" name="label">
-         <property name="font">
-          <font>
-           <pointsize>20</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>Хорошего рабочего дня!</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <spacer name="horizontalSpacer_2">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout">
-         <item>
-          <widget class="QPushButton" name="pushButton_13">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/remove_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/remove_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_22">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/check_box_outline_blank_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/check_box_outline_blank_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_23">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-      </layout>
-     </widget>
-    </item>
     <item row="1" column="1">
      <widget class="QWidget" name="widget_5" native="true">
       <property name="styleSheet">
@@ -470,11 +199,16 @@ background-color: white;
       <layout class="QVBoxLayout" name="verticalLayout_6">
        <item>
         <widget class="QStackedWidget" name="stackedWidget">
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(45, 44, 44);</string>
          </property>
          <property name="currentIndex">
-          <number>1</number>
+          <number>2</number>
          </property>
          <widget class="QWidget" name="education_page">
           <widget class="QLabel" name="label_12">
@@ -1012,7 +746,7 @@ color: white;</string>
            <property name="geometry">
             <rect>
              <x>40</x>
-             <y>360</y>
+             <y>330</y>
              <width>161</width>
              <height>41</height>
             </rect>
@@ -1026,13 +760,13 @@ border-radius: 20px;</string>
             <string>Отправить заявку</string>
            </property>
           </widget>
-          <widget class="QTextEdit" name="textEdit_com">
+          <widget class="QTextEdit" name="textEdit_com_1">
            <property name="geometry">
             <rect>
              <x>30</x>
              <y>150</y>
              <width>841</width>
-             <height>201</height>
+             <height>171</height>
             </rect>
            </property>
            <property name="styleSheet">
@@ -1056,7 +790,94 @@ border-radius: 20px;</string>
             </font>
            </property>
            <property name="text">
-            <string>Сломалось оборудование не беда, отправь заявку!</string>
+            <string>Сломалось? оборудование не беда, отправь заявку!</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_20">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>390</y>
+             <width>321</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Починил? отправь отчет!</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_send_order_2">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>430</y>
+             <width>161</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 153, 81);
+color: white;
+border-radius: 20px;</string>
+           </property>
+           <property name="text">
+            <string>Отправить заявку</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="textEdit_com_2">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>520</y>
+             <width>841</width>
+             <height>81</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border: 2px solid white;
+	border-radius: 10px;
+	color: white;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_22">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>480</y>
+             <width>471</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Не получилось напиши комментарий.</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_send_order_3">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>610</y>
+             <width>161</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 153, 81);
+color: white;
+border-radius: 20px;</string>
+           </property>
+           <property name="text">
+            <string>Отправить заявку</string>
            </property>
           </widget>
          </widget>
@@ -1065,11 +886,287 @@ border-radius: 20px;</string>
       </layout>
      </widget>
     </item>
+    <item row="1" column="0">
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="styleSheet">
+       <string notr="true">QWidget{
+background-color: rgb(0, 85, 0);
+border-top-right-radius:20px;
+}
+QPushButton{
+color: white;
+
+height: 30px;
+border:none;
+border-radius: 10px;
+border-bottom-radius: 10px;
+
+}
+QPushButton:checked{
+color: rgb(0, 85, 0);
+background-color: white;
+
+}
+</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="maximumSize">
+            <size>
+             <width>55</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resourses.qrc">:/res/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291-fotor-bg-remover-20241102121640.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton_acc1_us">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
+             <normalon>:/res/add_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_education1us">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/school_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
+             <normalon>:/res/school_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/school_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_orde1_2">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
+             <normalon>:/res/summarize_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>278</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_logout1">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resourses.qrc">
+           <normaloff>:/res/logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
+           <normalon>:/res/logout_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="4">
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="maximumSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:none;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Хорошего рабочего дня!</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="pushButton_13">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/remove_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/remove_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_22">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/check_box_outline_blank_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/check_box_outline_blank_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_23">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
    </layout>
   </widget>
  </widget>
  <resources>
-  <include location="🤡Project🤡/resourses.qrc"/>
+  <include location="resourses.qrc"/>
   <include location="resourses.qrc"/>
  </resources>
  <connections>

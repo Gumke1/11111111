@@ -1,32 +1,21 @@
-import asyncio
 import sys
-
-from PyQt6.QtWidgets import QApplication, QMainWindow
-from aiogram import Dispatcher, Bot
-from telegramm.handlers import router
-from vhod import Ui_reg2
-from telegramm.token_settings import TOKEN
+from PyQt6.QtWidgets import QApplication, QMainWindow,QPushButton
+from vhod import Ui_reg2 as Vhod
+from registration import Ui_Dialog as Main_reg
+from reg1 import Ui_Dialog as Smol_reg
+import reg1
+from main_menu import Ui_MainWindow
+from main_admin import Ui_MainWindow as Ui_adminWindow
 
 
 class MyWidget(QMainWindow):
     def __init__(self):
         super(MyWidget, self).__init__()
-        self.ui = Ui_reg2()
+        self.ui = Smol_reg()
         self.ui.setupUi(self)
 
 
-async def main():
-    bot = Bot(token=TOKEN)
-    dp = Dispatcher()
-    dp.include_router(router)
-    await dp.start_polling(bot)
-
-
 if __name__ == '__main__':
-    try:
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        print("off")
     app = QApplication(sys.argv)
     ex = MyWidget()
     ex.show()
