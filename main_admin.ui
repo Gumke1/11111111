@@ -132,6 +132,23 @@ background-color: white;
            </property>
           </widget>
          </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_education1us">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/groups_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/res/groups_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
         </layout>
        </item>
        <item>
@@ -254,6 +271,24 @@ background-color: white;
             <iconset resource="resourses.qrc">
              <normaloff>:/res/query_stats_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
              <normalon>:/res/query_stats_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/query_stats_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_education2us">
+           <property name="text">
+            <string>Отслеживание</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resourses.qrc">
+             <normaloff>:/res/groups_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
+             <normalon>:/res/groups_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/groups_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="checkable">
             <bool>true</bool>
@@ -605,7 +640,7 @@ border-bottom-radius: 10px;
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>856</width>
+                <width>55</width>
                 <height>1222</height>
                </rect>
               </property>
@@ -669,7 +704,7 @@ border-bottom-radius: 10px;
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>856</width>
+                <width>55</width>
                 <height>1222</height>
                </rect>
               </property>
