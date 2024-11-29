@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1176, 828)
+        MainWindow.resize(1166, 848)
         MainWindow.setStyleSheet("background-color: rgb(45, 44, 44);\n"
 "color: white")
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
@@ -22,6 +22,173 @@ class Ui_MainWindow(object):
         self.gridLayout.setHorizontalSpacing(0)
         self.gridLayout.setVerticalSpacing(6)
         self.gridLayout.setObjectName("gridLayout")
+        self.widget_4 = QtWidgets.QWidget(parent=self.centralwidget)
+        self.widget_4.setStyleSheet("QWidget{\n"
+"background-color: rgb(0, 85, 0);\n"
+"border-top-right-radius:20px;\n"
+"}\n"
+"QPushButton{\n"
+"color: white;\n"
+"\n"
+"height: 30px;\n"
+"border:none;\n"
+"border-radius: 10px;\n"
+"border-bottom-radius: 10px;\n"
+"\n"
+"}\n"
+"QPushButton:checked{\n"
+"color: rgb(0, 85, 0);\n"
+"background-color: white;\n"
+"\n"
+"}\n"
+"")
+        self.widget_4.setObjectName("widget_4")
+        self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.widget_4)
+        self.verticalLayout_4.setObjectName("verticalLayout_4")
+        self.verticalLayout = QtWidgets.QVBoxLayout()
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.label_3 = QtWidgets.QLabel(parent=self.widget_4)
+        self.label_3.setMaximumSize(QtCore.QSize(55, 55))
+        self.label_3.setText("")
+        self.label_3.setPixmap(QtGui.QPixmap("C:/Users/kirill/Desktop/Project_hack/res/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291-fotor-bg-remover-20241102121640.png"))
+        self.label_3.setScaledContents(True)
+        self.label_3.setObjectName("label_3")
+        self.verticalLayout.addWidget(self.label_3)
+        self.label_2 = QtWidgets.QLabel(parent=self.widget_4)
+        self.label_2.setObjectName("label_2")
+        self.verticalLayout.addWidget(self.label_2)
+        self.verticalLayout_4.addLayout(self.verticalLayout)
+        self.verticalLayout_7 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_7.setSpacing(15)
+        self.verticalLayout_7.setObjectName("verticalLayout_7")
+        self.pushButton_money1 = QtWidgets.QPushButton(parent=self.widget_4)
+        self.pushButton_money1.setText("")
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/res/paid_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap(":/res/paid_24dp_005500_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
+        self.pushButton_money1.setIcon(icon)
+        self.pushButton_money1.setCheckable(True)
+        self.pushButton_money1.setAutoExclusive(True)
+        self.pushButton_money1.setObjectName("pushButton_money1")
+        self.verticalLayout_7.addWidget(self.pushButton_money1)
+        self.pushButton_tracing1 = QtWidgets.QPushButton(parent=self.widget_4)
+        self.pushButton_tracing1.setText("")
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(":/res/query_stats_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap(":/res/query_stats_24dp_005500_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
+        self.pushButton_tracing1.setIcon(icon1)
+        self.pushButton_tracing1.setCheckable(True)
+        self.pushButton_tracing1.setAutoExclusive(True)
+        self.pushButton_tracing1.setObjectName("pushButton_tracing1")
+        self.verticalLayout_7.addWidget(self.pushButton_tracing1)
+        self.pushButton_settings1_2 = QtWidgets.QPushButton(parent=self.widget_4)
+        self.pushButton_settings1_2.setText("")
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap(":/res/groups_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon2.addPixmap(QtGui.QPixmap(":/res/groups_24dp_005500_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
+        self.pushButton_settings1_2.setIcon(icon2)
+        self.pushButton_settings1_2.setCheckable(True)
+        self.pushButton_settings1_2.setAutoExclusive(True)
+        self.pushButton_settings1_2.setObjectName("pushButton_settings1_2")
+        self.verticalLayout_7.addWidget(self.pushButton_settings1_2)
+        self.pushButton_orde1_2 = QtWidgets.QPushButton(parent=self.widget_4)
+        self.pushButton_orde1_2.setText("")
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap(":/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon3.addPixmap(QtGui.QPixmap(":/res/summarize_24dp_005500_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
+        self.pushButton_orde1_2.setIcon(icon3)
+        self.pushButton_orde1_2.setCheckable(True)
+        self.pushButton_orde1_2.setAutoExclusive(True)
+        self.pushButton_orde1_2.setObjectName("pushButton_orde1_2")
+        self.verticalLayout_7.addWidget(self.pushButton_orde1_2)
+        self.verticalLayout_4.addLayout(self.verticalLayout_7)
+        spacerItem = QtWidgets.QSpacerItem(20, 278, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
+        self.verticalLayout_4.addItem(spacerItem)
+        self.pushButton_logout1 = QtWidgets.QPushButton(parent=self.widget_4)
+        self.pushButton_logout1.setText("")
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap(":/res/logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon4.addPixmap(QtGui.QPixmap(":/res/logout_24dp_005500_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
+        self.pushButton_logout1.setIcon(icon4)
+        self.pushButton_logout1.setCheckable(True)
+        self.pushButton_logout1.setAutoExclusive(True)
+        self.pushButton_logout1.setObjectName("pushButton_logout1")
+        self.verticalLayout_4.addWidget(self.pushButton_logout1)
+        self.gridLayout.addWidget(self.widget_4, 1, 0, 1, 1)
+        self.widget_5 = QtWidgets.QWidget(parent=self.centralwidget)
+        self.widget_5.setStyleSheet("QWidget{\n"
+"background-color: rgb(0, 85, 0);\n"
+"border-top-right-radius:20px;\n"
+"}\n"
+"\n"
+"QPushButton{\n"
+"color: white;\n"
+"text-align:left;\n"
+"height: 30px;\n"
+"border:none;\n"
+"border-radius: 10px;\n"
+"border-bottom-radius: 10px;\n"
+"\n"
+"}\n"
+"QPushButton:checked{\n"
+"color: rgb(0, 85, 0);\n"
+"background-color: white;\n"
+"\n"
+"}")
+        self.widget_5.setObjectName("widget_5")
+        self.verticalLayout_5 = QtWidgets.QVBoxLayout(self.widget_5)
+        self.verticalLayout_5.setObjectName("verticalLayout_5")
+        self.verticalLayout_3 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_3.setObjectName("verticalLayout_3")
+        self.label_5 = QtWidgets.QLabel(parent=self.widget_5)
+        self.label_5.setMaximumSize(QtCore.QSize(55, 55))
+        self.label_5.setText("")
+        self.label_5.setPixmap(QtGui.QPixmap(":/res/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291-fotor-bg-remover-20241102121640.png"))
+        self.label_5.setScaledContents(True)
+        self.label_5.setObjectName("label_5")
+        self.verticalLayout_3.addWidget(self.label_5)
+        self.label_4 = QtWidgets.QLabel(parent=self.widget_5)
+        self.label_4.setObjectName("label_4")
+        self.verticalLayout_3.addWidget(self.label_4)
+        self.verticalLayout_5.addLayout(self.verticalLayout_3)
+        self.verticalLayout_2 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_2.setSpacing(15)
+        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.pushButton_money2 = QtWidgets.QPushButton(parent=self.widget_5)
+        self.pushButton_money2.setIcon(icon)
+        self.pushButton_money2.setCheckable(True)
+        self.pushButton_money2.setAutoExclusive(True)
+        self.pushButton_money2.setObjectName("pushButton_money2")
+        self.verticalLayout_2.addWidget(self.pushButton_money2)
+        self.pushButton_tracing2 = QtWidgets.QPushButton(parent=self.widget_5)
+        self.pushButton_tracing2.setIcon(icon1)
+        self.pushButton_tracing2.setCheckable(True)
+        self.pushButton_tracing2.setAutoExclusive(True)
+        self.pushButton_tracing2.setObjectName("pushButton_tracing2")
+        self.verticalLayout_2.addWidget(self.pushButton_tracing2)
+        self.pushButton_settings2_2 = QtWidgets.QPushButton(parent=self.widget_5)
+        self.pushButton_settings2_2.setIcon(icon2)
+        self.pushButton_settings2_2.setCheckable(True)
+        self.pushButton_settings2_2.setAutoExclusive(True)
+        self.pushButton_settings2_2.setObjectName("pushButton_settings2_2")
+        self.verticalLayout_2.addWidget(self.pushButton_settings2_2)
+        self.pushButton_order2_2 = QtWidgets.QPushButton(parent=self.widget_5)
+        self.pushButton_order2_2.setIcon(icon3)
+        self.pushButton_order2_2.setCheckable(True)
+        self.pushButton_order2_2.setAutoExclusive(True)
+        self.pushButton_order2_2.setObjectName("pushButton_order2_2")
+        self.verticalLayout_2.addWidget(self.pushButton_order2_2)
+        self.verticalLayout_5.addLayout(self.verticalLayout_2)
+        spacerItem1 = QtWidgets.QSpacerItem(20, 273, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
+        self.verticalLayout_5.addItem(spacerItem1)
+        self.pushButton_12 = QtWidgets.QPushButton(parent=self.widget_5)
+        self.pushButton_12.setStyleSheet("")
+        self.pushButton_12.setIcon(icon4)
+        self.pushButton_12.setCheckable(True)
+        self.pushButton_12.setAutoExclusive(True)
+        self.pushButton_12.setObjectName("pushButton_12")
+        self.verticalLayout_5.addWidget(self.pushButton_12)
+        self.gridLayout.addWidget(self.widget_5, 1, 1, 1, 1)
         self.widget_2 = QtWidgets.QWidget(parent=self.centralwidget)
         self.widget_2.setObjectName("widget_2")
         self.horizontalLayout_4 = QtWidgets.QHBoxLayout(self.widget_2)
@@ -33,48 +200,48 @@ class Ui_MainWindow(object):
         self.pushButton.setStyleSheet("border:none;\n"
 "")
         self.pushButton.setText("")
-        icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/res/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton.setIcon(icon)
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap(":/res/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButton.setIcon(icon5)
         self.pushButton.setIconSize(QtCore.QSize(50, 50))
         self.pushButton.setCheckable(True)
         self.pushButton.setAutoExclusive(True)
         self.pushButton.setObjectName("pushButton")
         self.verticalLayout_8.addWidget(self.pushButton)
         self.horizontalLayout_4.addLayout(self.verticalLayout_8)
-        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
-        self.horizontalLayout_4.addItem(spacerItem)
+        spacerItem2 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
+        self.horizontalLayout_4.addItem(spacerItem2)
         self.label = QtWidgets.QLabel(parent=self.widget_2)
         font = QtGui.QFont()
         font.setPointSize(20)
         self.label.setFont(font)
         self.label.setObjectName("label")
         self.horizontalLayout_4.addWidget(self.label)
-        spacerItem1 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
-        self.horizontalLayout_4.addItem(spacerItem1)
+        spacerItem3 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
+        self.horizontalLayout_4.addItem(spacerItem3)
         self.horizontalLayout = QtWidgets.QHBoxLayout()
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.pushButton_13 = QtWidgets.QPushButton(parent=self.widget_2)
         self.pushButton_13.setText("")
-        icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(":/res/remove_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_13.setIcon(icon1)
+        icon6 = QtGui.QIcon()
+        icon6.addPixmap(QtGui.QPixmap(":/res/remove_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButton_13.setIcon(icon6)
         self.pushButton_13.setCheckable(True)
         self.pushButton_13.setObjectName("pushButton_13")
         self.horizontalLayout.addWidget(self.pushButton_13)
         self.pushButton_22 = QtWidgets.QPushButton(parent=self.widget_2)
         self.pushButton_22.setText("")
-        icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap(":/res/check_box_outline_blank_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_22.setIcon(icon2)
+        icon7 = QtGui.QIcon()
+        icon7.addPixmap(QtGui.QPixmap(":/res/check_box_outline_blank_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButton_22.setIcon(icon7)
         self.pushButton_22.setCheckable(True)
         self.pushButton_22.setObjectName("pushButton_22")
         self.horizontalLayout.addWidget(self.pushButton_22)
         self.pushButton_23 = QtWidgets.QPushButton(parent=self.widget_2)
         self.pushButton_23.setText("")
-        icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap(":/res/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_23.setIcon(icon3)
+        icon8 = QtGui.QIcon()
+        icon8.addPixmap(QtGui.QPixmap(":/res/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButton_23.setIcon(icon8)
         self.pushButton_23.setCheckable(True)
         self.pushButton_23.setObjectName("pushButton_23")
         self.horizontalLayout.addWidget(self.pushButton_23)
@@ -90,7 +257,7 @@ class Ui_MainWindow(object):
         self.money_page = QtWidgets.QWidget()
         self.money_page.setObjectName("money_page")
         self.frame_graphics = QtWidgets.QFrame(parent=self.money_page)
-        self.frame_graphics.setGeometry(QtCore.QRect(10, 10, 851, 651))
+        self.frame_graphics.setGeometry(QtCore.QRect(10, 10, 861, 651))
         self.frame_graphics.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
         self.frame_graphics.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
         self.frame_graphics.setObjectName("frame_graphics")
@@ -114,8 +281,8 @@ class Ui_MainWindow(object):
 "}")
         self.pushButton_report.setObjectName("pushButton_report")
         self.horizontalLayout_9.addWidget(self.pushButton_report)
-        spacerItem2 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
-        self.horizontalLayout_9.addItem(spacerItem2)
+        spacerItem4 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
+        self.horizontalLayout_9.addItem(spacerItem4)
         self.stackedWidget.addWidget(self.money_page)
         self.tracking_page = QtWidgets.QWidget()
         self.tracking_page.setObjectName("tracking_page")
@@ -129,20 +296,39 @@ class Ui_MainWindow(object):
         self.label_6.setFont(font)
         self.label_6.setObjectName("label_6")
         self.horizontalLayout_2.addWidget(self.label_6)
-        spacerItem3 = QtWidgets.QSpacerItem(408, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
-        self.horizontalLayout_2.addItem(spacerItem3)
+        spacerItem5 = QtWidgets.QSpacerItem(408, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
+        self.horizontalLayout_2.addItem(spacerItem5)
+        self.refresh_btn = QtWidgets.QPushButton(parent=self.tracking_page)
+        self.refresh_btn.setMinimumSize(QtCore.QSize(200, 35))
+        self.refresh_btn.setStyleSheet("\n"
+"QPushButton{\n"
+"color: white;\n"
+"text-align:left;\n"
+"background-color: rgb(0, 153, 81);\n"
+"height: 30px;\n"
+"border:none;\n"
+"border-radius: 10px;\n"
+"border-bottom-radius: 10px;\n"
+"}")
+        self.refresh_btn.setCheckable(True)
+        self.refresh_btn.setAutoExclusive(True)
+        self.refresh_btn.setObjectName("refresh_btn")
+        self.horizontalLayout_2.addWidget(self.refresh_btn)
         self.verticalLayout_9.addLayout(self.horizontalLayout_2)
         self.scrollArea = QtWidgets.QScrollArea(parent=self.tracking_page)
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setObjectName("scrollArea")
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 887, 287))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 856, 1222))
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
         self.verticalLayout_10 = QtWidgets.QVBoxLayout(self.scrollAreaWidgetContents)
         self.verticalLayout_10.setObjectName("verticalLayout_10")
-        self.tableView = QtWidgets.QTableView(parent=self.scrollAreaWidgetContents)
-        self.tableView.setObjectName("tableView")
-        self.verticalLayout_10.addWidget(self.tableView)
+        self.frame_trouble = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents)
+        self.frame_trouble.setMinimumSize(QtCore.QSize(0, 1200))
+        self.frame_trouble.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
+        self.frame_trouble.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
+        self.frame_trouble.setObjectName("frame_trouble")
+        self.verticalLayout_10.addWidget(self.frame_trouble)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
         self.verticalLayout_9.addWidget(self.scrollArea)
         self.horizontalLayout_3 = QtWidgets.QHBoxLayout()
@@ -153,20 +339,23 @@ class Ui_MainWindow(object):
         self.label_7.setFont(font)
         self.label_7.setObjectName("label_7")
         self.horizontalLayout_3.addWidget(self.label_7)
-        spacerItem4 = QtWidgets.QSpacerItem(528, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
-        self.horizontalLayout_3.addItem(spacerItem4)
+        spacerItem6 = QtWidgets.QSpacerItem(528, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
+        self.horizontalLayout_3.addItem(spacerItem6)
         self.verticalLayout_9.addLayout(self.horizontalLayout_3)
         self.scrollArea_2 = QtWidgets.QScrollArea(parent=self.tracking_page)
         self.scrollArea_2.setWidgetResizable(True)
         self.scrollArea_2.setObjectName("scrollArea_2")
         self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 887, 286))
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 856, 1222))
         self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
         self.verticalLayout_11 = QtWidgets.QVBoxLayout(self.scrollAreaWidgetContents_2)
         self.verticalLayout_11.setObjectName("verticalLayout_11")
-        self.tableView_2 = QtWidgets.QTableView(parent=self.scrollAreaWidgetContents_2)
-        self.tableView_2.setObjectName("tableView_2")
-        self.verticalLayout_11.addWidget(self.tableView_2)
+        self.frame_free_workers = QtWidgets.QFrame(parent=self.scrollAreaWidgetContents_2)
+        self.frame_free_workers.setMinimumSize(QtCore.QSize(0, 1200))
+        self.frame_free_workers.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
+        self.frame_free_workers.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
+        self.frame_free_workers.setObjectName("frame_free_workers")
+        self.verticalLayout_11.addWidget(self.frame_free_workers)
         self.scrollArea_2.setWidget(self.scrollAreaWidgetContents_2)
         self.verticalLayout_9.addWidget(self.scrollArea_2)
         self.horizontalLayout_8 = QtWidgets.QHBoxLayout()
@@ -209,8 +398,8 @@ class Ui_MainWindow(object):
         self.horizontalLayout_8.addLayout(self.horizontalLayout_5)
         self.horizontalLayout_6 = QtWidgets.QHBoxLayout()
         self.horizontalLayout_6.setObjectName("horizontalLayout_6")
-        spacerItem5 = QtWidgets.QSpacerItem(13, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
-        self.horizontalLayout_6.addItem(spacerItem5)
+        spacerItem7 = QtWidgets.QSpacerItem(13, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
+        self.horizontalLayout_6.addItem(spacerItem7)
         self.pushButton_send_order = QtWidgets.QPushButton(parent=self.tracking_page)
         self.pushButton_send_order.setMinimumSize(QtCore.QSize(200, 35))
         self.pushButton_send_order.setStyleSheet("\n"
@@ -223,6 +412,8 @@ class Ui_MainWindow(object):
 "border-radius: 10px;\n"
 "border-bottom-radius: 10px;\n"
 "}")
+        self.pushButton_send_order.setCheckable(True)
+        self.pushButton_send_order.setAutoExclusive(True)
         self.pushButton_send_order.setObjectName("pushButton_send_order")
         self.horizontalLayout_6.addWidget(self.pushButton_send_order)
         self.horizontalLayout_8.addLayout(self.horizontalLayout_6)
@@ -233,185 +424,40 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.page_2)
         self.verticalLayout_6.addWidget(self.stackedWidget)
         self.gridLayout.addWidget(self.widget_3, 1, 3, 1, 1)
-        self.widget_5 = QtWidgets.QWidget(parent=self.centralwidget)
-        self.widget_5.setStyleSheet("QWidget{\n"
-"background-color: rgb(0, 85, 0);\n"
-"border-top-right-radius:20px;\n"
-"}\n"
-"\n"
-"QPushButton{\n"
-"color: white;\n"
-"text-align:left;\n"
-"height: 30px;\n"
-"border:none;\n"
-"border-radius: 10px;\n"
-"border-bottom-radius: 10px;\n"
-"\n"
-"}\n"
-"QPushButton:checked{\n"
-"color: rgb(0, 85, 0);\n"
-"background-color: white;\n"
-"\n"
-"}")
-        self.widget_5.setObjectName("widget_5")
-        self.verticalLayout_5 = QtWidgets.QVBoxLayout(self.widget_5)
-        self.verticalLayout_5.setObjectName("verticalLayout_5")
-        self.verticalLayout_3 = QtWidgets.QVBoxLayout()
-        self.verticalLayout_3.setObjectName("verticalLayout_3")
-        self.label_5 = QtWidgets.QLabel(parent=self.widget_5)
-        self.label_5.setMaximumSize(QtCore.QSize(55, 55))
-        self.label_5.setText("")
-        self.label_5.setPixmap(QtGui.QPixmap(":/res/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291-fotor-bg-remover-20241102121640.png"))
-        self.label_5.setScaledContents(True)
-        self.label_5.setObjectName("label_5")
-        self.verticalLayout_3.addWidget(self.label_5)
-        self.label_4 = QtWidgets.QLabel(parent=self.widget_5)
-        self.label_4.setObjectName("label_4")
-        self.verticalLayout_3.addWidget(self.label_4)
-        self.verticalLayout_5.addLayout(self.verticalLayout_3)
-        self.verticalLayout_2 = QtWidgets.QVBoxLayout()
-        self.verticalLayout_2.setSpacing(15)
-        self.verticalLayout_2.setObjectName("verticalLayout_2")
-        self.pushButton_money2 = QtWidgets.QPushButton(parent=self.widget_5)
-        icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap(":/res/paid_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        icon4.addPixmap(QtGui.QPixmap(":/res/paid_24dp_005500_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
-        self.pushButton_money2.setIcon(icon4)
-        self.pushButton_money2.setCheckable(True)
-        self.pushButton_money2.setAutoExclusive(True)
-        self.pushButton_money2.setObjectName("pushButton_money2")
-        self.verticalLayout_2.addWidget(self.pushButton_money2)
-        self.pushButton_tracing2 = QtWidgets.QPushButton(parent=self.widget_5)
-        icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap(":/res/query_stats_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        icon5.addPixmap(QtGui.QPixmap(":/res/query_stats_24dp_005500_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
-        self.pushButton_tracing2.setIcon(icon5)
-        self.pushButton_tracing2.setCheckable(True)
-        self.pushButton_tracing2.setAutoExclusive(True)
-        self.pushButton_tracing2.setObjectName("pushButton_tracing2")
-        self.verticalLayout_2.addWidget(self.pushButton_tracing2)
-        self.pushButton_settings2 = QtWidgets.QPushButton(parent=self.widget_5)
-        icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap(":/res/settings_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        icon6.addPixmap(QtGui.QPixmap(":/res/settings_24dp_005500_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
-        self.pushButton_settings2.setIcon(icon6)
-        self.pushButton_settings2.setCheckable(True)
-        self.pushButton_settings2.setAutoExclusive(True)
-        self.pushButton_settings2.setObjectName("pushButton_settings2")
-        self.verticalLayout_2.addWidget(self.pushButton_settings2)
-        self.verticalLayout_5.addLayout(self.verticalLayout_2)
-        spacerItem6 = QtWidgets.QSpacerItem(20, 273, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
-        self.verticalLayout_5.addItem(spacerItem6)
-        self.pushButton_12 = QtWidgets.QPushButton(parent=self.widget_5)
-        self.pushButton_12.setStyleSheet("")
-        icon7 = QtGui.QIcon()
-        icon7.addPixmap(QtGui.QPixmap(":/res/logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        icon7.addPixmap(QtGui.QPixmap(":/res/logout_24dp_005500_FILL0_wght400_GRAD0_opsz24.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
-        self.pushButton_12.setIcon(icon7)
-        self.pushButton_12.setCheckable(True)
-        self.pushButton_12.setAutoExclusive(True)
-        self.pushButton_12.setObjectName("pushButton_12")
-        self.verticalLayout_5.addWidget(self.pushButton_12)
-        self.gridLayout.addWidget(self.widget_5, 1, 1, 1, 1)
-        self.widget_4 = QtWidgets.QWidget(parent=self.centralwidget)
-        self.widget_4.setStyleSheet("QWidget{\n"
-"background-color: rgb(0, 85, 0);\n"
-"border-top-right-radius:20px;\n"
-"}\n"
-"QPushButton{\n"
-"color: white;\n"
-"\n"
-"height: 30px;\n"
-"border:none;\n"
-"border-radius: 10px;\n"
-"border-bottom-radius: 10px;\n"
-"\n"
-"}\n"
-"QPushButton:checked{\n"
-"color: rgb(0, 85, 0);\n"
-"background-color: white;\n"
-"\n"
-"}\n"
-"")
-        self.widget_4.setObjectName("widget_4")
-        self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.widget_4)
-        self.verticalLayout_4.setObjectName("verticalLayout_4")
-        self.verticalLayout = QtWidgets.QVBoxLayout()
-        self.verticalLayout.setObjectName("verticalLayout")
-        self.label_3 = QtWidgets.QLabel(parent=self.widget_4)
-        self.label_3.setMaximumSize(QtCore.QSize(55, 55))
-        self.label_3.setText("")
-        self.label_3.setPixmap(QtGui.QPixmap(":/res/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291-fotor-bg-remover-20241102121640.png"))
-        self.label_3.setScaledContents(True)
-        self.label_3.setObjectName("label_3")
-        self.verticalLayout.addWidget(self.label_3)
-        self.label_2 = QtWidgets.QLabel(parent=self.widget_4)
-        self.label_2.setObjectName("label_2")
-        self.verticalLayout.addWidget(self.label_2)
-        self.verticalLayout_4.addLayout(self.verticalLayout)
-        self.verticalLayout_7 = QtWidgets.QVBoxLayout()
-        self.verticalLayout_7.setSpacing(15)
-        self.verticalLayout_7.setObjectName("verticalLayout_7")
-        self.pushButton_money1 = QtWidgets.QPushButton(parent=self.widget_4)
-        self.pushButton_money1.setText("")
-        self.pushButton_money1.setIcon(icon4)
-        self.pushButton_money1.setCheckable(True)
-        self.pushButton_money1.setAutoExclusive(True)
-        self.pushButton_money1.setObjectName("pushButton_money1")
-        self.verticalLayout_7.addWidget(self.pushButton_money1)
-        self.pushButton_tracing1 = QtWidgets.QPushButton(parent=self.widget_4)
-        self.pushButton_tracing1.setText("")
-        self.pushButton_tracing1.setIcon(icon5)
-        self.pushButton_tracing1.setCheckable(True)
-        self.pushButton_tracing1.setAutoExclusive(True)
-        self.pushButton_tracing1.setObjectName("pushButton_tracing1")
-        self.verticalLayout_7.addWidget(self.pushButton_tracing1)
-        self.pushButton_settings1 = QtWidgets.QPushButton(parent=self.widget_4)
-        self.pushButton_settings1.setText("")
-        self.pushButton_settings1.setIcon(icon6)
-        self.pushButton_settings1.setCheckable(True)
-        self.pushButton_settings1.setAutoExclusive(True)
-        self.pushButton_settings1.setObjectName("pushButton_settings1")
-        self.verticalLayout_7.addWidget(self.pushButton_settings1)
-        self.verticalLayout_4.addLayout(self.verticalLayout_7)
-        spacerItem7 = QtWidgets.QSpacerItem(20, 278, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
-        self.verticalLayout_4.addItem(spacerItem7)
-        self.pushButton_logout1 = QtWidgets.QPushButton(parent=self.widget_4)
-        self.pushButton_logout1.setText("")
-        self.pushButton_logout1.setIcon(icon7)
-        self.pushButton_logout1.setCheckable(True)
-        self.pushButton_logout1.setAutoExclusive(True)
-        self.pushButton_logout1.setObjectName("pushButton_logout1")
-        self.verticalLayout_4.addWidget(self.pushButton_logout1)
-        self.gridLayout.addWidget(self.widget_4, 1, 0, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
         self.stackedWidget.setCurrentIndex(1)
         self.pushButton.toggled['bool'].connect(self.widget_4.setHidden) # type: ignore
         self.pushButton.toggled['bool'].connect(self.widget_5.setVisible) # type: ignore
-        self.pushButton_settings1.toggled['bool'].connect(self.pushButton_settings2.setChecked) # type: ignore
-        self.pushButton_settings2.toggled['bool'].connect(self.pushButton_settings1.setChecked) # type: ignore
         self.pushButton_23.toggled['bool'].connect(MainWindow.close) # type: ignore
         self.pushButton_logout1.toggled['bool'].connect(self.pushButton_12.setChecked) # type: ignore
         self.pushButton_12.toggled['bool'].connect(self.pushButton_logout1.setChecked) # type: ignore
         self.pushButton_money2.toggled['bool'].connect(self.pushButton_money1.setChecked) # type: ignore
         self.pushButton_money1.toggled['bool'].connect(self.pushButton_money2.setChecked) # type: ignore
+        self.pushButton_tracing1.toggled['bool'].connect(self.pushButton_tracing2.setChecked) # type: ignore
+        self.pushButton_tracing2.clicked['bool'].connect(self.pushButton_tracing1.setChecked) # type: ignore
+        self.pushButton_settings1_2.toggled['bool'].connect(self.pushButton_settings2_2.setChecked) # type: ignore
+        self.pushButton_settings2_2.toggled['bool'].connect(self.pushButton_settings1_2.setChecked) # type: ignore
+        self.pushButton_order2_2.toggled['bool'].connect(self.pushButton_orde1_2.setChecked) # type: ignore
+        self.pushButton_orde1_2.toggled['bool'].connect(self.pushButton_order2_2.setChecked) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.label_2.setText(_translate("MainWindow", "TextLabel"))
+        self.label_4.setText(_translate("MainWindow", "TextLabel"))
+        self.pushButton_money2.setText(_translate("MainWindow", "Потеренные деньги"))
+        self.pushButton_tracing2.setText(_translate("MainWindow", "Отслеживание"))
+        self.pushButton_settings2_2.setText(_translate("MainWindow", "Бригады"))
+        self.pushButton_order2_2.setText(_translate("MainWindow", "Заявки"))
+        self.pushButton_12.setText(_translate("MainWindow", "Выход"))
         self.label.setText(_translate("MainWindow", "Хорошего рабочего дня!"))
         self.pushButton_report.setText(_translate("MainWindow", "  Сделать отчёт"))
         self.label_6.setText(_translate("MainWindow", "Сломанное оборудование"))
+        self.refresh_btn.setText(_translate("MainWindow", " Обновить данные"))
         self.label_7.setText(_translate("MainWindow", "Выбор рабочих"))
         self.lineEdit_nik_work.setPlaceholderText(_translate("MainWindow", "Введите никнейм рабочего"))
         self.lineEdit_id_problem.setPlaceholderText(_translate("MainWindow", "Введите код проблемы"))
         self.pushButton_send_order.setText(_translate("MainWindow", " Выбрать исполнителя"))
-        self.label_4.setText(_translate("MainWindow", "TextLabel"))
-        self.pushButton_money2.setText(_translate("MainWindow", "Потеренные деньги"))
-        self.pushButton_tracing2.setText(_translate("MainWindow", "Отслеживание"))
-        self.pushButton_settings2.setText(_translate("MainWindow", "Настройки"))
-        self.pushButton_12.setText(_translate("MainWindow", "Выход"))
-        self.label_2.setText(_translate("MainWindow", "TextLabel"))
