@@ -7,7 +7,7 @@ import vhod
 import sqlite3
 import sys
 import registration
-from main import ActiveUser
+
 
 
 class Window(QWidget):

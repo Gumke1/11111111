@@ -283,7 +283,7 @@ background-color: white;
          <item>
           <widget class="QPushButton" name="pushButton_education2us">
            <property name="text">
-            <string>Отслеживание</string>
+            <string>Бригады</string>
            </property>
            <property name="icon">
             <iconset resource="resourses.qrc">
@@ -473,7 +473,7 @@ background-color: white;
           <string notr="true">background-color: rgb(45, 44, 44);</string>
          </property>
          <property name="currentIndex">
-          <number>0</number>
+          <number>1</number>
          </property>
          <widget class="QWidget" name="money_page">
           <widget class="QFrame" name="frame_graphics">
@@ -640,26 +640,13 @@ border-bottom-radius: 10px;
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>55</width>
-                <height>1222</height>
+                <width>877</width>
+                <height>295</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_10">
                <item>
-                <widget class="QFrame" name="frame_trouble">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>1200</height>
-                  </size>
-                 </property>
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                </widget>
+                <widget class="QTableView" name="tableView"/>
                </item>
               </layout>
              </widget>
@@ -704,26 +691,13 @@ border-bottom-radius: 10px;
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>55</width>
-                <height>1222</height>
+                <width>877</width>
+                <height>296</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_11">
                <item>
-                <widget class="QFrame" name="frame_free_workers">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>1200</height>
-                  </size>
-                 </property>
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                </widget>
+                <widget class="QTableView" name="tableView_2"/>
                </item>
               </layout>
              </widget>
@@ -1025,6 +999,38 @@ border-bottom-radius: 10px;
     <hint type="destinationlabel">
      <x>52</x>
      <y>238</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_education2us</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_education1us</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>115</x>
+     <y>267</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>61</x>
+     <y>271</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_education1us</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_education2us</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>35</x>
+     <y>277</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>112</x>
+     <y>277</y>
     </hint>
    </hints>
   </connection>

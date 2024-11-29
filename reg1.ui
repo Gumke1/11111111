@@ -100,7 +100,7 @@ color: rgb(6, 255, 172);</string>
   <zorder>pushButton_registration</zorder>
  </widget>
  <resources>
-  <include location="🤡Project🤡/resourses.qrc"/>
+  <include location="resourses.qrc"/>
   <include location="resourses.qrc"/>
  </resources>
  <connections/>

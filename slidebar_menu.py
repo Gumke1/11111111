@@ -1,8 +1,9 @@
+import main_menu
 from main_admin import Ui_MainWindow
 import sys
 from PyQt6.QtWidgets import QApplication,QMainWindow,QPushButton
 
-class MysideBar(QMainWindow,Ui_MainWindow):
+class MysideBar(QMainWindow,main_menu.Ui_MainWindow):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
@@ -28,9 +29,3 @@ class MysideBar(QMainWindow,Ui_MainWindow):
 
     def switch_to_order(self):
         self.stackedWidget.setCurrentIndex(2)
-
-
-app = QApplication(sys.argv)
-wind = MysideBar()
-wind.show()
-app.exec()
