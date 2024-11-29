@@ -208,7 +208,7 @@ background-color: white;
           <string notr="true">background-color: rgb(45, 44, 44);</string>
          </property>
          <property name="currentIndex">
-          <number>2</number>
+          <number>1</number>
          </property>
          <widget class="QWidget" name="education_page">
           <widget class="QLabel" name="label_12">

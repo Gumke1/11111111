@@ -7,6 +7,8 @@ import reg1
 from main_menu import Ui_MainWindow
 from main_admin import Ui_MainWindow as Ui_adminWindow
 
+nickname = "nick"
+
 
 class MyWidget(QMainWindow):
     def __init__(self):
