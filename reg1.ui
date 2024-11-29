@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>442</width>
-    <height>546</height>
+    <height>515</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -25,14 +25,14 @@
      <x>110</x>
      <y>80</y>
      <width>211</width>
-     <height>131</height>
+     <height>171</height>
     </rect>
    </property>
    <property name="text">
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="🤡Project🤡/resourses.qrc">:/res/logo-no-bg-preview (carve.photos).png</pixmap>
+    <pixmap resource="resourses.qrc">:/res/1732856356407-fotor-bg-remover-202411298154.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>

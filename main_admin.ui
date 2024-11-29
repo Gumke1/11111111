@@ -132,42 +132,6 @@ background-color: white;
            </property>
           </widget>
          </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_3">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/groups_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/groups_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/groups_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_orde1_2">
-           <property name="text">
-            <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/summarize_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
         </layout>
        </item>
        <item>
@@ -290,42 +254,6 @@ background-color: white;
             <iconset resource="resourses.qrc">
              <normaloff>:/res/query_stats_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
              <normalon>:/res/query_stats_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/query_stats_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_2">
-           <property name="text">
-            <string>Бригады</string>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/groups_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/groups_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/groups_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
-           </property>
-           <property name="checkable">
-            <bool>true</bool>
-           </property>
-           <property name="autoExclusive">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pushButton_order2_2">
-           <property name="text">
-            <string>Заявки</string>
-           </property>
-           <property name="icon">
-            <iconset resource="resourses.qrc">
-             <normaloff>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</normaloff>
-             <normalon>:/res/summarize_24dp_005500_FILL0_wght400_GRAD0_opsz24.png</normalon>:/res/summarize_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</iconset>
            </property>
            <property name="checkable">
             <bool>true</bool>
@@ -909,8 +837,6 @@ border-bottom-radius: 10px;
            </item>
           </layout>
          </widget>
-         <widget class="QWidget" name="page_2"/>
-         <widget class="QWidget" name="page"/>
         </widget>
        </item>
       </layout>
@@ -1064,70 +990,6 @@ border-bottom-radius: 10px;
     <hint type="destinationlabel">
      <x>52</x>
      <y>238</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_3</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>pushButton_2</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>50</x>
-     <y>266</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>118</x>
-     <y>267</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_2</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>pushButton_3</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>108</x>
-     <y>277</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>51</x>
-     <y>284</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_order2_2</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>pushButton_orde1_2</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>123</x>
-     <y>318</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>59</x>
-     <y>316</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_orde1_2</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>pushButton_order2_2</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>49</x>
-     <y>330</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>172</x>
-     <y>330</y>
     </hint>
    </hints>
   </connection>

@@ -484,7 +484,7 @@ background-color: white;
           <string notr="true">background-color: rgb(45, 44, 44);</string>
          </property>
          <property name="currentIndex">
-          <number>0</number>
+          <number>2</number>
          </property>
          <widget class="QWidget" name="education_page">
           <widget class="QLabel" name="label_12">
@@ -1166,7 +1166,6 @@ border-radius: 20px;</string>
   </widget>
  </widget>
  <resources>
-  <include location="resourses.qrc"/>
   <include location="resourses.qrc"/>
  </resources>
  <connections>
